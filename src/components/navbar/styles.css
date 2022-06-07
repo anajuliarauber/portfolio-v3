@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--silk);
+    height: 50px;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    padding: 0 50px;
+}
+
+.nav-left{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.nav-left li{
+    list-style: none;
+}
+
+nav a{
+    color: var(--dark);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--background)
+}

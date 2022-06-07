@@ -1,0 +1,58 @@
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+    flex: 1;
+    position:relative;
+    top: -100px;
+}
+
+.about-image{
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 40px;
+}
+
+.about-card{
+    width: 100%;
+    height: 260px;
+    top:-40px;
+    left:80px;
+    background-color: var(--silk);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.about-right{
+    flex:2;
+    margin-left: 120px;
+}
+
+
+.about-description{
+padding-right: 50px;
+}
+
+.tech{
+    margin-top: 40px;
+}
+.tech-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:50px;
+    row-gap: 7px;
+    margin: 20px 60px 0 0;
+}
+
+.tech-item{
+    list-style: none;
+    background-color: var(--pale-gold);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}

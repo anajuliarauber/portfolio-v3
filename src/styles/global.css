@@ -1,0 +1,16 @@
+:root{
+    --background: #f4f4f4;
+    --pale-gold:#C0B283;
+    --silk:#DCD0C0;
+    --dark: #373737;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--dark);
+}

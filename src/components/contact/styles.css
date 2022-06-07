@@ -1,0 +1,89 @@
+.contact{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg{
+    width: 20px;
+    height: 100%;
+    background-color: var(--silk);
+    position: absolute;
+}
+
+.contact-wrapper{
+    display: flex;
+    padding: 50px;
+    
+}
+
+.contact-left{
+    flex: 1;
+}
+
+.contact-title{
+    font-size: 50px;
+    width: 80%;
+}
+
+.contact-info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0;
+    font-size: 20px;
+}
+.contact-info-item-wrapper{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin:8px 0;
+}
+
+.contact-info-item-wrapper:hover{
+    color:var(--pale-gold)
+}
+
+.contact-info-item-wrapper p{
+    margin-left: 20px;
+}
+
+
+.contact-right{
+    flex:1;
+}
+
+.contact-description{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 50%;
+    font-size: 14px;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background-color: var(--pale-gold);
+    color: white;
+    font-weight: 500;
+}
