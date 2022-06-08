@@ -1,3 +1,4 @@
+import { ThemeSwitcher } from "../themeSwitcher"
 import "./styles.css"
 
 export function Navbar() {
@@ -10,6 +11,7 @@ export function Navbar() {
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#projects">Portfolio</a></li>
                 <li> <a href="#contact">Contato</a></li>
+                <li><ThemeSwitcher/></li>
             </ul>
 
         </nav>

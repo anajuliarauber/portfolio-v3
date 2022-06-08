@@ -1,28 +1,18 @@
 .contact{
     height: 100vh;
-    position: relative;
-}
-
-.contact-bg{
-    width: 20px;
-    height: 100%;
-    background-color: var(--silk);
-    position: absolute;
-}
-
-.contact-wrapper{
     display: flex;
     padding: 50px;
-    
+    padding-top: 150px;
 }
+
 
 .contact-left{
     flex: 1;
 }
 
 .contact-title{
-    font-size: 50px;
-    width: 80%;
+    font-size: 40px;
+    width: 90%;
 }
 
 .contact-info-item{
@@ -55,6 +45,8 @@
 .contact-description{
     font-weight: 400;
     font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 form{
@@ -65,25 +57,36 @@ form{
     justify-content: center;
 }
 
+form p{
+    color: var(--pale-gold);
+}
+
 input{
-    width: 50%;
+    width: 80%;
     font-size: 14px;
     margin: 10px 0;
     height: 30px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--dark);
+    background-color: var(--background);
+    color: var(--dark);
 }
+
 
 textarea{
-    width: 100%;
+    width: 80%;
     margin: 10px 0;
     font-size: 14px;
+    background-color: var(--background);
+    padding: 10px;
+    border: 1px solid var(--dark);
 }
 
-button{
+form button{
     border: none;
-    padding: 15px;
+    padding: 10px 30px;
     background-color: var(--pale-gold);
     color: white;
     font-weight: 500;
+    border-radius: 5px;
 }

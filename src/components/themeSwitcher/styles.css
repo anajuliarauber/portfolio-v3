@@ -1,0 +1,29 @@
+.switcher{
+    width: 50px;
+    height:25px;
+    border-radius: 20px;
+    border: 1px solid var(--dark);
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:12px;
+    right: 10px;
+}
+
+.theme-img{
+    width: 15px;
+    height: 15px;
+}
+
+.theme-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--dark);
+    position: absolute;
+    cursor:pointer;
+    right: 0;
+}
+

@@ -10,7 +10,6 @@ export function About() {
             </div>
             <div className="about-right">
                 <h1 className="about-title">Sobre mim</h1>
-                <p className="about-sub">Desenvolvedora web</p>
                 <p className="about-description">Me chamo Ana Julia, tenho 24 anos e me apaixonei por programação no final de 2021. Desde então, venho
                     me dedicando a aprender novas ferramentas e tecnologias para me tornar uma desenvolvedora web. Sou
                     uma pessoa dedicada, que gosta de aprender coisas novas e que corre atras do que precisa.</p>
