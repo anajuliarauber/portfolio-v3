@@ -9,9 +9,9 @@ export function Navbar() {
             </div>
             <ul className="nav-left">
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Portfolio</a></li>
+                {/* <li><a href="#projects">Portfolio</a></li> */}
                 <li> <a href="#contact">Contato</a></li>
-                <li><ThemeSwitcher/></li>
+                {/* <li><ThemeSwitcher/></li> */}
             </ul>
 
         </nav>
